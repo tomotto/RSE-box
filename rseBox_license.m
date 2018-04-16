@@ -11,8 +11,8 @@
 % resulting in a scientific presentation or publication, the software 
 % should be acknowledged and cited as:
 %
-% Otto T.U. (2018), An analysis and modelling toolbox to study multisensory
-% response times, IMRF, Toronto, Canada, 14-17th June 2018
+% Otto T.U. (2018). An analysis and modelling toolbox to study multisensory
+% response times. IMRF, Toronto, Canada, 14-17th June 2018
 %
 %
 % ***  License  ***********************************************************
