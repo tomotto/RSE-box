@@ -1,4 +1,3 @@
-function rseBox
 %RSEBOX  Displays the help comments for all RSE-box functions. 
 %
 % Demonstration of RSE-box functions:
@@ -51,5 +50,3 @@ function rseBox
 % See rseBox_license for details
 
 help rseBox
-
-end
