@@ -4,9 +4,8 @@
 % Logical Calculus Lab, University of St Andrews
 % http://lclab.wp.st-andrews.ac.uk/
 %
-% *************************************************************************
 %
-% Citation
+% ***  Citation  **********************************************************
 %
 % This software is distributed free of charge. If you use it in research
 % resulting in a scientific presentation or publication, the software 
@@ -15,9 +14,8 @@
 % Otto T.U. (2018), An analysis and modelling toolbox to study multisensory
 % response times, IMRF, Toronto, Canada, 14-17th June 2018
 %
-% *************************************************************************
 %
-% License
+% ***  License  ***********************************************************
 %
 % RSE-box is distributed under the "Creative Commons
 % Attribution-Noncommercial-ShareAlike License" Version 4.0 (CC BY-NC-SA
@@ -44,13 +42,13 @@
 %
 % See the above link for the full text of the license.
 %
-% *************************************************************************
 %
-% Disclaimer
+% ***  Disclaimer  ********************************************************
 %
 % This software is provided 'as-is', without any express or implied
 % warranty. In no event will the author be held liable for any damages
 % arising from the use of this software.
+%
 %
 % *************************************************************************
 
