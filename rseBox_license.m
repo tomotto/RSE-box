@@ -1,6 +1,6 @@
 %RSEBOX_LICENSE  License statement and permissions for the RSE-Box package.
 %
-% © 2017-18 Thomas Otto 
+% Copyright (C) 2017-18 Thomas Otto 
 % Logical Calculus Lab, University of St Andrews
 % http://lclab.wp.st-andrews.ac.uk/
 %
@@ -23,20 +23,20 @@
 %
 % You are free to:
 %
-% Share — copy and redistribute the material in any medium or format
+% Share - copy and redistribute the material in any medium or format
 %
-% Adapt — remix, transform, and build upon the material 
+% Adapt - remix, transform, and build upon the material 
 %
 % Under the following terms:
 % 
-% Attribution — You must give appropriate credit, provide a link to the
+% Attribution - You must give appropriate credit, provide a link to the
 % license, and indicate if changes were made. You may do so in any
 % reasonable manner, but not in any way that suggests the licensor endorses
 % you or your use.
 % 
-% NonCommercial — You may not use the material for commercial purposes.
+% NonCommercial - You may not use the material for commercial purposes.
 % 
-% ShareAlike — If you remix, transform, or build upon the material, you
+% ShareAlike - If you remix, transform, or build upon the material, you
 % must distribute your contributions under the same license as the
 % original.
 %
