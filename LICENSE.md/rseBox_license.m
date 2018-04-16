@@ -12,8 +12,8 @@
 % resulting in a scientific presentation or publication, the software 
 % should be acknowledged and cited as:
 %
-% Otto T.U. (2018), RSE-Box: A data analysis and modelling toolbox for
-% Matlab, http://lclab.wp.st-andrews.ac.uk/software
+% Otto T.U. (2018), An analysis and modelling toolbox to study multisensory
+% response times, IMRF, Toronto, Canada, 14-17th June 2018
 %
 % *************************************************************************
 %
