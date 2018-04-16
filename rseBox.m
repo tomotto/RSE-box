@@ -48,7 +48,6 @@ function rseBox
 %
 %
 % Copyright (C) 2017-18 Thomas Otto, University of St Andrews
-% http://lclab.wp.st-andrews.ac.uk/
 % See rseBox_license for details
 
 help rseBox
