@@ -1,4 +1,4 @@
-function rseBox_content
+function rseBox_info
 %RSEBOX  Displays a list of all RSE-box functions. 
 %
 % Demonstration of RSE-box functions:

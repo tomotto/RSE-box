@@ -1,3 +1,4 @@
+function rseBox_license
 %RSEBOX_LICENSE  License statement and permissions for the RSE-Box package.
 %
 % Copyright (C) 2017-18 Thomas Otto 
@@ -53,3 +54,5 @@
 % *************************************************************************
 
 help rseBox_license
+
+end
