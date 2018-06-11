@@ -1,5 +1,5 @@
-@@ -1,52 +0,0 @@
-%RSEBOX  Displays the help comments for all RSE-box functions. 
+function rseBox_content
+%RSEBOX  Displays a list of all RSE-box functions. 
 %
 % Demonstration of RSE-box functions:
 %   demo01_quantiles  - Demonstration of the RSE-box: Basic RT analysis
@@ -51,3 +51,5 @@
 % See rseBox_license for details
 
 help rseBox
+
+end
