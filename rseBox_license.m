@@ -15,6 +15,9 @@ function rseBox_license
 % Otto T.U. (2018). RSE-box: An analysis and modelling package to study
 % multisensory response times. [Publication to be updated]
 %
+% Otto T.U. (2018). An analysis and modelling toolbox to study multisensory
+% response times. Poster presented at IMRF 2018, Toronto, Canada.
+%
 %
 % ***  License  ***********************************************************
 %
