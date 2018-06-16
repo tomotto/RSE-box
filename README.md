@@ -5,4 +5,4 @@ See rseBox_license for details.
 
 To circulate new research and updates regarding the RSE-box, please subscribe to our mailing list by sending an email to selby-sympa@st-andrews.ac.uk with the subject: subscribe rse-box
 
-Contact: http://lclab.wp.st-andrews.ac.uk/
+For more details on our research and to get in contact, please see: http://lclab.wp.st-andrews.ac.uk/
