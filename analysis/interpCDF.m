@@ -1,6 +1,6 @@
 function y = interpCDF( x, data, flgExtrap )
 %INTERPCDF   Linear interpolation of a cumulative distribution function.
-% P = INTERPCDF(X,DATA,FLGEXTRAP) returns an interpolated cumulative
+% Y = INTERPCDF(X,DATA,FLGEXTRAP) returns an interpolated cumulative
 % distribution function from a data sample. The input argument X is a
 % vector of values for which cumulative probabilities Y are linearly
 % interpolated (see Matlab function INTERP1). The input argument DATA is a
