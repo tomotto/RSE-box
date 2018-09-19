@@ -19,6 +19,7 @@ function rseBox_info
 %   getCP             - Computation of cumulative probabilities
 %   interpCDF         - Linear interpolation of an empirical CDF
 %   laterCDF          - Reci-normal CDF (LATER model)
+%   laterINV          - Reci-normal inverse CDF (LATER model)
 %   raceCDF           - Race model CDF
 %
 %
@@ -33,10 +34,11 @@ function rseBox_info
 % Model fitting:
 %   fitLater          - Fitting of the LATER model
 %   bootLater         - Bootstrapping 95% confidence intervals for LATER model fits
-%   fitRace           - MLE of the race model
+%   fitRace           - MLE of the race model (using LATER model fits)
 %   bootRace          - Bootstrapping 95% confidence intervals for race model fits
 %   fitRaceEta        - MLE of the race model (eta only)
 %   fitRaceRho        - MLE of the race model (rho only)
+%   fitRse            - Fitting of all 3 RSE conditions (6 parameter model)
 %
 %
 % Model functions:
