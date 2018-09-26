@@ -56,6 +56,6 @@ function rseBox_info
 % Copyright (C) 2017-18 Thomas Otto, University of St Andrews
 % See rseBox_license for details
 
-help rseBox
+help rseBox_info
 
 end
