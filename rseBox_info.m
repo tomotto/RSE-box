@@ -36,9 +36,13 @@ function rseBox_info
 %   bootLater         - Bootstrapping 95% confidence intervals for LATER model fits
 %   fitRace           - MLE of the race model (using LATER model fits)
 %   bootRace          - Bootstrapping 95% confidence intervals for race model fits
-%   fitRaceEta        - MLE of the race model (eta only)
-%   fitRaceRho        - MLE of the race model (rho only)
+%   fitRaceEta        - MLE of the nested model (eta only)
+%   fitRaceRho        - MLE of the nested model (rho only)
 %   fitRse            - Fitting of all 3 RSE conditions (6 parameter model)
+%   bootRse           - Bootstrapping 95% confidence intervals for race model fits
+%   fitRseEta         - MLE of the nested model (5 parameters, eta as only race model parameter)
+%   fitRseRho         - MLE of the nested model (5 parameters, rho as only race model parameter)
+%   fitRseRaab        - MLE of the nested model (4 parameters, independent race model)
 %
 %
 % Model functions:
