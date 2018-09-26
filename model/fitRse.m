@@ -1,17 +1,17 @@
 function [fit, logL] = fitRse( rt1, rt2, rtR, nStart, nGrid )
 %FITRSE   Maximum likelihood estimation of the overall RSE model.
-% [FIT, LOGL] = FITRSE( RT1, RT2, RTR ) performs a joint model fitting for
-% the three conditions of the redundant signals paradigm. It returns
-% maximum likelihood estimates (MLEs) for the two LATER units (mu1, mu2,
-% sigma1, and sigma2) as well as for the race model parameters (rho and
-% eta; see Otto & Mamassian, 2012). Input arguments RT1, RT2, and RTR are
-% vectors that contain reaction times in the paradigm's three conditions.
-% The optional input argument NSTART specifies the number of fitting
-% procedures with different start values (default is 4). The optional input
-% argument NGRID specifies the resolution of the initial grid search
-% (default is 10). Output argument FIT returns the MLEs of the parameters
-% mu1, mu2, sigma1, sigma2, rho, and eta. LOGL contains the log-likelihood
-% of the MLE.
+% [FIT, LOGL] = FITRSE( RT1, RT2, RTR, NSTART, NGRID ) performs a joint
+% model fitting for the three conditions of the redundant signals paradigm.
+% It returns maximum likelihood estimates (MLEs) for the two LATER units
+% (mu1, mu2, sigma1, and sigma2) as well as for the race model parameters
+% (rho and eta; see Otto & Mamassian, 2012). Input arguments RT1, RT2, and
+% RTR are vectors that contain reaction times in the paradigm's three
+% conditions. The optional input argument NSTART specifies the number of
+% fitting procedures with different start values (default is 4). The
+% optional input argument NGRID specifies the resolution of the initial
+% grid search (default is 10). Output argument FIT returns the MLEs of the
+% parameters in the order mu1, mu2, sigma1, sigma2, rho, and eta. LOGL
+% contains the log-likelihood of the MLE.
 %
 % Reference:
 % Otto & Mamassian (2012). Noise and correlations in parallel perceptual
@@ -86,7 +86,7 @@ startR = getStartVal( data, idx, startL, nStart, nGrid );
 % Lower bound for ETA (to prevent negative SIGMA values)
 etaLow = -0.74 * min( startL(3:4) );
 
-% Coolate lower and upper bounds for the fitting procedure
+% Collate lower and upper bounds for the fitting procedure
 lowBound = [ 0.75 * startL, -0.99999,  etaLow ];
 uppBound = [ 1.25 * startL,  0.99999,  Inf      ];
 
