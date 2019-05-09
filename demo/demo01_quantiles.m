@@ -65,7 +65,6 @@ end
 % Info text and figure format
 legendText = { 'Signal 1', 'Signal 2', 'Redundant'};
 figFormat( xLim, lh, legendText )
-drawnow;
 
 
 % -------------------------------------------------------------------------
@@ -96,7 +95,6 @@ text( 0.05, 0.90, 'Redundancy gain', 'units', 'normalized')
 text( 0.05, 0.85, [num2str(gain) ' s'], 'FontWeight', 'bold', 'units', 'normalized')
 legendText = { 'Grice bound', 'Redundant'};
 figFormat(xLim, lh(1:2), legendText)
-drawnow;
 
 
 % -------------------------------------------------------------------------
@@ -137,11 +135,12 @@ end
 
 function figFormat( xLim, lh, legendText )
 
-% General foigure settings
+% General figure settings
 xlabel( 'Reaction time (s)', 'FontWeight', 'bold' )
 ylabel( 'Cumulative probability', 'FontWeight', 'bold' )
 legend( lh, legendText, 'Location', 'southeast' )
 legend( 'boxoff' )
 set( gca, 'xlim', xLim, 'ylim', [0 1] )
-    
+drawnow;
+
 end

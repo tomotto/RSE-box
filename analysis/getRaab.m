@@ -1,7 +1,7 @@
 function [raab, p] = getRaab( data )
 %GETRAAB   Computation of Raab's independent race model.
 % [RAAB, P] = GETRAAB(DATA) returns Raab's independent race model
-% prediciton to analyse a redundant signals experiment (Raab, 1962). Input
+% prediction to analyse a redundant signals experiment (Raab, 1962). Input
 % argument DATA is an N-by-2 matrix that contains reaction times in the two
 % single signal conditions (if DATA has more than two columns, columns 1
 % and 2 are used). The output argument RAAB is a time vector that defines

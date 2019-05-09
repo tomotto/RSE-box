@@ -12,8 +12,9 @@ function rseBox_license
 % resulting in a scientific presentation or publication, the software 
 % should be acknowledged and cited as:
 %
-% Otto T.U. (2018). RSE-box: An analysis and modelling package to study
-% multisensory response times. [Publication to be updated]
+% Otto T.U. (2019, in press). RSE-box: An analysis and modelling package to
+% study response times to multiple signals. The Quantitative Methods for
+% Psychology, scheduled for publication in the fall issue.
 %
 % Otto T.U. (2018). An analysis and modelling toolbox to study multisensory
 % response times. Poster presented at IMRF 2018, Toronto, Canada.
